@@ -27,6 +27,7 @@ void enqueue( int add_item[9]){
 
 
 void dequeue(){
+    //TO DO: debug problem here
     if (front == - 1 || front > rear){
         printf("Queue Underflow \n");
         return ;
